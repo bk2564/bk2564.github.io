@@ -1,0 +1,19 @@
+.lislat{
+    list-style:upper-latin;
+}
+
+.lisnum{
+    list-style: decimal;
+}
+
+.lisrom{
+    list-style: lower-roman;
+}
+
+.no{
+    list-style: none;
+}
+
+.no ul{
+    list-style: none;
+}
