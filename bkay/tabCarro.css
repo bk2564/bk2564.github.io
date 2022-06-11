@@ -1,0 +1,32 @@
+.tab th{
+    background-color: #FFFFCC;
+    color: #DD0000;
+    padding: 10px;
+}
+
+body{
+    background-color: #DDDDDD;
+}
+
+.tab td{
+    background-color: #FFFFCC;
+    color: #DD0000;
+    padding: 10px;
+}
+
+header .inc{
+    display: flex;
+}
+
+header .inc figure img{
+    width: 162px;
+    height: auto;
+    padding-left: 40px;
+
+}
+
+header .inc h1{
+    color: #DD0000;
+    padding-left: 40px;
+}
+

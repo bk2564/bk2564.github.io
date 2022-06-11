@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+
+.cont{
+    margin: 210px 5px  0 5px ;
+    border: 1px solid black;
+    border-radius: 1vw;
+}
+
+header{
+    display: flex;
+}
+
+header .cef{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+header .navs{
+    margin-top: 40px;
+    margin-left: auto;
+    border: 1px solid black;
+    margin-right: 50px;
+}
+
+header .navs ul{
+    display: flex;
+    list-style: none;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+}
+
+header .navs ul li{
+    padding: 7px 40px 7px 40px;
+} 
+
+header .navs ul li:hover{
+    background-color: gray;
+    color: white;
+    border-radius: 5vw;
+}
+
+main{
+    border: 1px solid black;
+    text-align: center;
+    margin: 150px 500px 100px 500px;
+}
+
+main button{
+    background-color: gray;
+    color: white;
+    border-radius: 2vw;
+    height: 30px;
+    width: auto;
+    margin-bottom: 20px;
+}
