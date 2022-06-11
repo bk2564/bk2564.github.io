@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    align-self: center;
+    justify-content: space-between;
+}
+
+button{
+    background-color: aqua;
+    color: brown;
+}
