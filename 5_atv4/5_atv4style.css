@@ -1,0 +1,88 @@
+body{
+    border: 1px solid black;
+    margin: 100px;
+}
+
+#main-content{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#main-content header{
+    line-height: 10px;
+    padding-top: 90px;
+}
+
+#main-content h4{
+    opacity: 0.5;
+}
+
+#main-content .bot{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+
+#main-content .bot .caixas{
+    border: 1px solid black;
+    width: 230px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    text-align: left;
+}
+
+#main-content .bot .ultC{
+    border: 1px solid black;
+    line-height: 10px;
+    width: 230px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+    display: flex;
+}
+
+.cir {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid black;
+    align-self: center;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .bot .lor{
+    line-height: 10px;
+    align-self: center;
+  }
+
+  .lor h4{
+    opacity: 0.5;
+    line-height: 10px;
+  }
+
+ footer{
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+ }
+ 
+  footer button{
+        background-color: lightgray;
+        color: gray;
+        border-radius: 5px;
+        width: 140px;
+        height: 30px;
+  }
+
+  footer button:hover{
+        background-color: gray;
+        color: white;
+
+  }
