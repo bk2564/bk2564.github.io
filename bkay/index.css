@@ -1,10 +1,23 @@
 body{
-    margin: 0;
-    align-self: center;
+    margin: 200px;
+    text-align: center;
+    background-color: lightblue;
     
 }
 
 button{
     background-color: aqua;
     color: brown;
+    padding: 10px;
+    margin: 10px;
+}
+
+button:hover{
+    color: white;
+    background-color: cadetblue;
+}
+
+header h1{
+    margin-top:-150px;
+    margin-bottom: 120px;
 }
