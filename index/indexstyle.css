@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background-color: lightgrey;
+    font-family: 'Calibri';
+}
+
+body header{
+    text-align: center;
+    border-bottom: 1px solid black;
+    background-color: slategray;
+    color: aliceblue;
+}
+
+body header h1{
+    padding-top: 50px;
+    margin-top: 0;
+}
+
+body header h3{
+    margin-bottom: 50px;
+}
+
+body main p a{
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+main p a:hover{
+    color: black;
+}
+
+main{
+    text-align: center;
+}
+
+main h2{
+    margin-top: 100px;
+}
+
+.lab{
+    justify-content: space-between;
+    margin: 0 600px 100px 600px;
+    display: flex;
+}
+
+
+.atv{
+    justify-content: space-between;
+    margin: 0 400px 0 400px;
+    display: flex;
+}
+
+main h2{
+    border: 1px solid black;
+    background-color: gray;
+    color: ivory
+}
