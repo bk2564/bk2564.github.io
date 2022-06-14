@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+.campo{
+    margin-bottom: 20px;
+}
+
+.campo h3{
+    margin-bottom: 0;
+}
+
+fieldset{
+    border-width: 5px;
+    width: 70%;
+}
+
+.campo input{
+    width: 250px;
+}
+
+.campo #end{
+    width: 600px;
+}
+
+.bot{
+    margin-top: 20px;
+}

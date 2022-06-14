@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ativ6.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+</head>
+<body>
+    <form action="/clientes" method="post">
+    <fieldset>
+        <legend>Cadastro de Clientes</legend>
+    <div class="campo">
+        <h3>Nome</h3>
+        <input name="nome" type="text" maxlength="30" placeholder="Digite seu nome" required>
+    </div>
+    
+    <div class="campo">
+        <h3>Endereço</h3>
+        <input name="endereço" type="text" maxlength="50" id="end" placeholder="Digite seu endereço" required>
+    </div>
+    
+    <div class="campo">    
+        <h3>Email</h3>
+        <input name="email" type="email" placeholder="Digite seu email" required>
+    </div>
+
+    <label for="ds">
+        <td><input type="checkbox"></td>
+        <td>Desejo receber newsletter</td>
+    </label>
+    
+    <div class="bot">
+    <input type="submit" value="Cadastrar">
+    <input type="reset" value="Cancelar">
+</div>
+</fieldset>
+</form>
+</body>
+</html>
