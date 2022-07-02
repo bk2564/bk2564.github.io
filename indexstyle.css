@@ -52,6 +52,12 @@ main h2{
     display: flex;
 }
 
+.js{
+    justify-content: space-between;
+    margin: 0 400px 0 400px;
+    display: flex;
+}
+
 main h2{
     border: 1px solid black;
     background-color: gray;
