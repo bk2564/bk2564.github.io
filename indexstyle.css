@@ -54,7 +54,7 @@ main h2{
 
 .js{
     justify-content: space-between;
-    margin: 0;
+    margin: 0 705px 0 705px;
     display: flex;
 }
 
