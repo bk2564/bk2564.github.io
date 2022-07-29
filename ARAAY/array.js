@@ -149,7 +149,7 @@ btn02.addEventListener("click", () => {
         --i
         }
         let txt = ""
-        txt = `100: ${valor[5]} |\/| 50: ${valor[4]} |\/| 20: ${valor[3]} |\/| 10:${valor[2]} |\/| 5: ${valor[1]} |\/| 2: ${valor[0]}`
+        txt = `100: ${valor[5]} |\/| 50: ${valor[4]} |\/| 20: ${valor[3]} |\/| 10: ${valor[2]} |\/| 5: ${valor[1]} |\/| 2: ${valor[0]}`
         return txt    
     }
 
